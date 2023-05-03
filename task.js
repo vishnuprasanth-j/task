@@ -1,4 +1,4 @@
-function summarizeByDay(D) {
+ function  summarizeByDay(D) {
     let result = {
         'Mon': 'NA',
         'Tue': 'NA',
@@ -74,5 +74,6 @@ function summarizeByDay(D) {
             return result;
     }
 
-    let D={'2020-01-01':6, '2020-01-04':12, '2020-01-05':14,'2020-01-06':2,'2020-01-07':4}
-    console.log(summarizeByDay(D))
+    
+
+module.exports = summarizeByDay;
